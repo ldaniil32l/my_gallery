@@ -1,0 +1,23 @@
+@media all and (max-width: 768px) {
+    .item{
+        max-height: initial;
+        max-width: initial;
+        width: 95vw;
+        height: calc(95vw / 16 * 9);;
+    }
+    .img_link{
+        margin: 5px 0;
+    }
+    .heading{
+        font-size: 40px;
+    }
+}
+
+@media all and (max-width: 1200px) {
+    .img_link:hover{
+        opacity: 1;
+        transform: scale(1.2) rotate(27deg);
+        z-index: 10;
+        box-shadow: 0 0 200px 30px rgba(0, 250, 154, 0.4);
+    }
+}
